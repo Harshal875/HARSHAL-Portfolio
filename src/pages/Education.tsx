@@ -8,11 +8,11 @@ import Image from 'next/image';
 const Education = () => {
 	const educationData = [
 		{
-			school: "Bengal College of Engineering and Technology",
-			location: "Durgapur, WB, India",
-			duration: "July 2020 - June 2024",
-			degree: "B.Tech (Computer Science and Engineering)",
-			grade: "CGPA: 8.48 (80%)",
+			school: "Punjab Engineering College (PEC)",
+			location: "Chandigarh, India",
+			duration: "August 2023 - May 2027",
+			degree: "B.Tech (Computer Science and Artificial Intelligence)",
+			grade: "CGPA: 8.22 (80%)",
 			image: "/education/college_img.jpg",
 			resultUrl: "/files/education_pdf/B Tech.pdf",
 			coursework: [
@@ -27,18 +27,17 @@ const Education = () => {
 			description: "During my time at BCET, I have built a strong foundation in computer science, focusing on software development, problem-solving, and real-world applications. Engaging in hands-on projects, internships, and coding challenges has helped me enhance my technical and analytical skills. This experience prepares me for a future in software development, equipping me with the ability to create scalable and efficient solutions."
 		},
 		{
-			school: "Birsingha Bhagabati Vidyalaya",
-			location: "Medinipur, WB, India",
-			duration: "June 2018 - July 2019",
-			degree: "Higher Secondary (WBSC)",
-			grade: "Percentage: 79%",
+			school: "GMSS",
+			location: "Chandigarh, India",
+			duration: "June 2021 - July 2023",
+			degree: "Higher Secondary ",
+			grade: "Percentage: 89%",
 			image: "/education/school_img.jpg",
 			resultUrl: "/files/education_pdf/HS MARK SHEET.pdf",
 			subjects: [
 				"Physics",
 				"Chemistry",
 				"Mathematics",
-				"Biology",
 				"Computer Science"
 			],
 			description: "My higher secondary education laid the foundation for my technical journey, strengthening my analytical thinking and problem-solving abilities. The strong emphasis on mathematics and computer science has been instrumental in shaping my passion for software development, enabling me to approach complex technical challenges with confidence."

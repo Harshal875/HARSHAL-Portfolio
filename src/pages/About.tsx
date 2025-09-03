@@ -9,7 +9,7 @@ const About = () => {
 		{
 			icon: <Code2 className="w-6 h-6" />,
 			title: "10+ Projects",
-			description: "Completed full-stack web applications"
+			description: "Completed Saas web applications"
 		},
 		{
 			icon: <Briefcase className="w-6 h-6" />,
@@ -18,16 +18,16 @@ const About = () => {
 		},
 		{
 			icon: <GraduationCap className="w-6 h-6" />,
-			title: "8.48 CGPA",
+			title: "8.22 CGPA",
 			description: "Academic excellence"
 		}
 	];
 
 	const interests = [
-		"Web Development",
-		"UI/UX Design",
-		"Cloud Computing",
-		"DevOps",
+		"Machine Learning",
+		"LLMOps",
+		"Data Engineering",
+		"Data Science",
 		"Open Source",
 		"Artificial Intelligence"
 	];
@@ -45,7 +45,7 @@ const About = () => {
 					<div className="aspect-square overflow-hidden rounded-2xl">
 						<img
 							src="/profile/profile.jpg"
-							alt="Niladri Chatterjee"
+							alt="Harshal Bansal"
 							className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 						/>
 					</div>
@@ -54,13 +54,13 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Hi! I'm a passionate full-stack developer with expertise in building modern web applications. My journey in tech started during my college years, where I discovered my love for creating innovative solutions through code.
+							Hi! I'm a passionate AI developer with expertise in building production grade applications. My journey in tech started during my college years, where I discovered my love for Machine learning and Data Science.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
 							Currently pursuing my B.Tech in Computer Science, I've maintained a strong academic record while actively engaging in real-world projects and internships. This blend of theoretical knowledge and practical experience has shaped my approach to problem-solving and software development.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							I specialize in React, Node.js, and modern web technologies, with a keen interest in creating performant and user-friendly applications. My experience includes working with various startups and contributing to open-source projects.
+							I specialize in LLMOps and Big Data technologies, with a keen interest in creating performant and user-friendly applications. My experience includes working with various startups and contributing to open-source projects.
 						</p>
 					</div>
 
@@ -68,7 +68,7 @@ const About = () => {
 						<div className="pt-4">
 							<h3 className="text-2xl font-semibold mb-4 gradient-text">Quick Facts</h3>
 							<ul className="list-none space-y-3">
-								{["Based in Kolkata, WB, India", "B.Tech in Computer Science", "CGPA: 8.48"].map((fact, index) => (
+								{["Based in Chandigarh, India", "B.Tech in Artificial Intelligence & Computer Science", "CGPA: 8.22"].map((fact, index) => (
 									<motion.li
 										key={fact}
 										className="flex items-center space-x-2 text-gray-300"
@@ -84,7 +84,7 @@ const About = () => {
 					<ScrollAnimation>
 						<div className="flex justify-start space-x-4">
 							<a
-								href="/files/cv_pdf/Niladri_Chatterjee(CV).pdf"
+								href="/files/cv_pdf/Harshal_resume.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"

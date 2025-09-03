@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Niladri Chatterjee's Portfolio 🚀
+  # Harshal's Portfolio 🚀
 
   [![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2Fniladri1.vercel.app)](https://niladri1.vercel.app)
   [![GitHub followers](https://img.shields.io/github/followers/niladri-1?logo=github&style=for-the-badge)](https://github.com/niladri-1)

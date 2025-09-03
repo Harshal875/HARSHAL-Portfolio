@@ -34,10 +34,10 @@ const Footer = () => {
 					<div className="space-y-4">
 						<Link href="/" className="flex items-center space-x-3">
 							<Code2 className="w-8 h-8 text-white" />
-							<span className="text-xl font-bold text-white">Niladri Chatterjee</span>
+							<span className="text-xl font-bold text-white">Harshal Bansal</span>
 						</Link>
 						<p className="text-sm text-gray-400">
-							Software Developer based in Kolkata, WB, India.
+							Software Developer based in Chandigarh, India.
 						</p>
 					</div>
 
@@ -46,18 +46,18 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Contact</h3>
 						<ul className="space-y-3">
 							<li>
-								<a href="mailto:code.niladri@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+								<a href="mailto:harshalbansal999@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 									<Mail className="w-4 h-4" />
-									code.niladri@gmail.com
+									harshalbansal999@gmail.com
 								</a>
 							</li>
 							<li>
 								<a
-									href="tel:+916296554939"
+									href="tel:+918847694442"
 									className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
 								>
 									<Phone className="w-4 h-4" />
-									+916296554939
+									+918847694442
 								</a>
 							</li>
 						</ul>
@@ -111,7 +111,7 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Social</h3>
 						<div className="flex space-x-4">
 							<a
-								href="https://github.com/niladri-1"
+								href="https://github.com/Harshal875"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-400 hover:text-white transition-colors"
@@ -119,7 +119,7 @@ const Footer = () => {
 								<Github className="w-5 h-5" />
 							</a>
 							<a
-								href="https://linkedin.com/in/niladri1"
+								href="https://www.linkedin.com/in/harshal-bansal/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-400 hover:text-white transition-colors"
@@ -127,7 +127,7 @@ const Footer = () => {
 								<Linkedin className="w-5 h-5" />
 							</a>
 							<a
-								href="mailto:code.niladri@gmail.com"
+								href="mailto:harshalbansal999@gmail.com"
 								className="text-gray-400 hover:text-white transition-colors"
 							>
 								<Mail className="w-5 h-5" />
@@ -140,11 +140,11 @@ const Footer = () => {
 				<div className="border-t border-white/10 py-6">
 					<div className="flex flex-col md:flex-row justify-between items-center">
 						<p className="text-sm text-gray-400">
-							© {currentYear} Niladri Chatterjee. All rights reserved.
+							© {currentYear} Harshal Bansal. All rights reserved.
 						</p>
 						<div className="flex space-x-6 mt-4 md:mt-0">
 							<a href="" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors">
-								Niladri's Portfolio
+								Harshal's Portfolio
 							</a>
 						</div>
 					</div>
